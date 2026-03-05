@@ -3,7 +3,7 @@
 pipeline {
     agent any
     stages {
-        stage('Prepare') {
+        stage('SHNEINE') {
             steps {
                 echo 'Preparing workspace...'
                 sh 'mkdir -p build'
@@ -12,7 +12,7 @@ pipeline {
                 echo 'Directories created'
             }
         }
-        stage('Build') {
+        stage('PEPE') {
             steps {
                 echo 'Building application...'
                 sh 'echo "Build version: 1.0.0" > build/version.txt'
@@ -20,7 +20,7 @@ pipeline {
                 echo 'Build completed'
              }
         }
-         stage('Verify') {
+         stage('WATAFAA') {
             steps {
                 echo 'Verifying build...'
                 sh 'cat build/version.txt'
